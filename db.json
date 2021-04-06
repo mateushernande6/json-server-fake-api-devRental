@@ -1,5 +1,19 @@
 {
-  "users": [],
-  "techs": [],
+  "users": [
+    {
+      "email": "mateus@mail.com",
+      "password": "$2a$10$iLWGc4i0yZustXu.WNnWWOWnWfmFeWO2trecHuHTLL/.Lxi2dHWRO",
+      "name": "mateus hernandes",
+      "category": "person",
+      "id": 1
+    }
+  ],
+  "techs": [
+    {
+      "name": "React",
+      "userId": 1,
+      "id": 1
+    }
+  ],
   "jobs": []
 }

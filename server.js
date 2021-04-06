@@ -9,8 +9,8 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   "/users*": "/600/users$1",
-  "/products*": "/640/products$1",
-  "/hobbies*": "/664/hobbies$1",
+  "/techs*": "/640/techs$1",
+  "/jobs*": "/640/jobs$1",
 });
 
 app.use(rules);

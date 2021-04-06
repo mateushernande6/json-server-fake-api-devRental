@@ -1,34 +1,5 @@
 {
-  "users": [
-    {
-      "email": "mateus@mail.com",
-      "password": "$2a$10$76j2MHwRt/uPBlioQhWc9.rjQ3I063Mjc5VN2MSXH2gQ7bj.TjrX.",
-      "name": "mateus",
-      "age": 22,
-      "id": 1
-    }
-  ],
-  "products": [
-    {
-      "name": "mac book",
-      "userId": 1,
-      "price": 15000,
-      "category": "E",
-      "id": 1
-    }
-  ],
-  "hobbies": [
-    {
-      "name": "corrida",
-      "userId": 1,
-      "frequency": "Daily",
-      "id": 1
-    },
-    {
-      "name": "corrida",
-      "userId": 2,
-      "frequency": "Daily",
-      "id": 2
-    }
-  ]
+  "users": [],
+  "techs": [],
+  "jobs": []
 }

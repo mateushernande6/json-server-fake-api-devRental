@@ -1,3 +1,4 @@
+let cors = require("cors");
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 

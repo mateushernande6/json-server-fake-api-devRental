@@ -13,6 +13,7 @@ const rules = auth.rewriter({
   "/jobs*": "/640/jobs$1",
 });
 
+app.use(cors());
 app.use(rules);
 app.use(auth);
 app.use(router);

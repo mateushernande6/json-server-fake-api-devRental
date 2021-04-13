@@ -12,6 +12,8 @@ const rules = auth.rewriter({
   "/users*": "/600/users$1",
   "/techs*": "/640/techs$1",
   "/jobs*": "/640/jobs$1",
+  "/accepted*": "/640/accepted$1",
+  "/portfolio*": "/640/portfolio$1",
 });
 
 app.use(cors());
